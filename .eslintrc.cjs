@@ -12,4 +12,19 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
   },
+  rules: {
+    "prettier/prettier": [
+      "error",
+      {
+        endOfLine: "auto",
+        printWidth: 80,
+        trailingComma: "es5",
+        doubleQuote: true,
+        jsxSingleQuote: true,
+        singleQuote: false,
+        useTabs: false,
+        tabWidth: 2,
+      },
+    ],
+  },
 };

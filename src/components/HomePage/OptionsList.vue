@@ -2,14 +2,14 @@
   <ul class="flex flex-row flex-wrap mx-5 space-x-1 text-xs mt-14">
     <li
       class="nav-item"
-      @click="fetchCharacters('https://hp-api.herokuapp.com/api/characters')"
+      @click="fetchCharacters('https://hp-api.onrender.com/api/characters')"
     >
       All Characters
     </li>
     <li
       class="nav-item"
       @click="
-        fetchCharacters('https://hp-api.herokuapp.com/api/characters/students')
+        fetchCharacters('https://hp-api.onrender.com/api/characters/students')
       "
     >
       Students
@@ -17,7 +17,7 @@
     <li
       class="nav-item"
       @click="
-        fetchCharacters('https://hp-api.herokuapp.com/api/characters/staff')
+        fetchCharacters('https://hp-api.onrender.com/api/characters/staff')
       "
     >
       Staff
@@ -26,7 +26,7 @@
       class="nav-item"
       @click="
         fetchCharacters(
-          'https://hp-api.herokuapp.com/api/characters/house/gryffindor'
+          'https://hp-api.onrender.com/api/characters/house/gryffindor'
         )
       "
     >
@@ -36,7 +36,7 @@
       class="nav-item"
       @click="
         fetchCharacters(
-          'https://hp-api.herokuapp.com/api/characters/house/slytherin'
+          'https://hp-api.onrender.com/api/characters/house/slytherin'
         )
       "
     >
@@ -46,7 +46,7 @@
       class="nav-item"
       @click="
         fetchCharacters(
-          'https://hp-api.herokuapp.com/api/characters/house/hufflepuff'
+          'https://hp-api.onrender.com/api/characters/house/hufflepuff'
         )
       "
     >
@@ -56,7 +56,7 @@
       class="nav-item"
       @click="
         fetchCharacters(
-          'https://hp-api.herokuapp.com/api/characters/house/ravenclaw'
+          'https://hp-api.onrender.com/api/characters/house/ravenclaw'
         )
       "
     >
